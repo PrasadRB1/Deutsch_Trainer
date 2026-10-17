@@ -1,0 +1,57 @@
+// Vocabulary, practice questions and writing tasks per CEFR level.
+const D={
+A1:{g:[
+['Present tense, sein & haben','sein: bin, bist, ist, sind, seid, sind. haben: habe, hast, hat, haben, habt, haben. Regular verbs: stem + e, st, t, en, t, en.','The conjugated verb is always in position 2: Ich lerne heute Deutsch.'],
+['Articles & gender','der (m), die (f), das (n), plural die. Accusative changes only the masculine: der → den, ein → einen.','Learn every noun with its article and colour-code it: blue der, red die, green das.'],
+['Questions & word order','W-question: Wo wohnst du? Yes/no question starts with the verb: Kommst du morgen?','Question word + verb + subject. Verb first for ja/nein questions.'],
+['Negation: nicht / kein','kein negates nouns (Ich habe keinen Bruder). nicht negates verbs, adjectives, adverbs (Ich komme nicht).','If you could say ein/eine/no article in the positive sentence, use kein.']],
+v:[['Hallo','hello'],['Danke','thank you'],['die Wohnung','apartment'],['das Brot','bread'],['der Freund','friend (male)'],['die Schule','school'],['trinken','to drink'],['heute','today']],
+e:{goethe:[['Wie ___ du? – Ich heiße Anna.',['heißen','heißt','heiße','heißst'],1,'du → heißt (stem heiß + t, because the stem ends in ß).'],['Ich habe ___ Auto.',['kein','keine','nicht','keinen'],0,'Das Auto is neuter, so accusative kein.']],
+telc:[['Sprechstunde: Mo–Fr 9–12 Uhr. Ist die Praxis am Samstag geöffnet?',['Ja','Nein','Nur vormittags','Nur nachmittags'],1,'Only Monday to Friday are listed.'],['Entschuldigung, ___ ist der Bahnhof?',['wo','wer','was','wann'],0,'wo asks for a place.']]},
+w:'Introduce yourself in 30–40 words: name, age, home town, hobby.'},
+A2:{g:[
+['Perfekt','haben/sein (position 2) + Partizip II at the end: Ich habe gespielt. Motion/change of state uses sein: Ich bin gegangen.','Ge-…-t for regular verbs, ge-…-en for irregular ones. Separable: aufgestanden.'],
+['Dativ','Articles: dem (m/n), der (f), den + n (pl). Pronouns: mir, dir, ihm, ihr. After: mit, nach, bei, von, zu, aus, seit.','Mnemonic: aus-bei-mit-nach-seit-von-zu always take dative.'],
+['Modal verbs','können, müssen, wollen, dürfen, sollen, mögen. Modal in position 2, infinitive at the end: Er kann gut schwimmen.','ich/er/sie/es have the same form: ich kann, er kann.'],
+['weil-clauses','weil sends the conjugated verb to the end: Ich bleibe zu Hause, weil ich krank bin.','Subordinate clause first? Then the verb of the main clause comes right after the comma.']],
+v:[['der Termin','appointment'],['die Einladung','invitation'],['vergessen','to forget'],['die Gesundheit','health'],['der Urlaub','holiday'],['leihen','to borrow'],['die Rechnung','bill'],['sich freuen','to be glad']],
+e:{goethe:[['Gestern ___ ich ins Kino gegangen.',['habe','bin','war','werde'],1,'gehen is a motion verb, so the Perfekt uses sein.'],['Ich fahre mit ___ Bus.',['der','dem','den','des'],1,'mit + dative, masculine: dem.']],
+telc:[['Ich bleibe zu Hause, ___ ich krank bin.',['weil','deshalb','aber','oder'],0,'The verb bin is at the end, so a subordinating conjunction is needed.'],['Er ___ gut Klavier spielen.',['kann','können','kannst','könnt'],0,'er → kann.']]},
+w:'Write a short email (50–60 words) inviting a friend to your birthday: when, where, what to bring.'},
+B1:{g:[
+['Präteritum','Written narration: war, hatte, wurde, ging, kam. Modals: konnte, musste, wollte.','Use Perfekt in speech, Präteritum in stories and reports (sein, haben and modals also in speech).'],
+['Relative clauses','der/die/das by gender; case by the role in the clause: Der Mann, den ich gestern traf, … Verb at the end.','Find the gender of the noun you refer to, then ask what case the relative pronoun has inside its own clause.'],
+['Passive','werden + Partizip II: Das Paket wird morgen geliefert. Past: wurde geliefert.','Von + dative names the agent: von dem Hausmeister.'],
+['Konjunktiv II','Wishes and unreal conditions: wäre, hätte, würde + infinitive. Wenn ich Zeit hätte, würde ich reisen.','Only use würde + infinitive for most verbs; keep wäre, hätte and modals as they are.']],
+v:[['die Meinung','opinion'],['die Entscheidung','decision'],['sich bewerben','to apply'],['der Vorteil','advantage'],['die Umwelt','environment'],['vorschlagen','to suggest'],['die Verantwortung','responsibility'],['sich beschweren','to complain']],
+e:{goethe:[['Das ist der Mann, ___ ich gestern getroffen habe.',['der','den','dem','dessen'],1,'Mann is masculine and is the direct object in the relative clause: den.'],['Wenn ich mehr Zeit ___, würde ich reisen.',['habe','hätte','hatte','haben'],1,'Unreal condition: Konjunktiv II hätte.']],
+telc:[['Das Paket ___ morgen geliefert.',['wird','hat','ist','würde'],0,'Present passive: werden + Partizip II.'],['Er fragte, ___ ich Zeit hätte.',['dass','ob','wenn','weil'],0+1,'Indirect yes/no question: ob.']]},
+w:'Write a forum post (80–100 words): should cities ban cars from the centre? Give your opinion with two reasons.'},
+B2:{g:[
+['Konjunktiv I (reported speech)','Er sagte, die Lage sei stabil / er habe keine Zeit. Use sei, habe, werde, könne.','If Konjunktiv I looks like the indicative (wir haben), use Konjunktiv II instead.'],
+['Participial attributes','Present: der lachende Mann. Past: das gelesene Buch. Extended: das von allen gelesene Buch.','Think of them as a relative clause squeezed in front of the noun.'],
+['Connectors','obwohl, trotzdem, dennoch, folglich, sodass, indem. trotzdem/folglich take the verb in position 2 after them.','Obwohl = subordinate (verb last). Trotzdem = main clause (verb second).'],
+['Nominal style','trotz/wegen/aufgrund + Genitiv, durch + Akkusativ: Trotz des schlechten Wetters fand das Fest statt.','Turn a verb into a noun: entscheiden → die Entscheidung.']],
+v:[['die Auswirkung','impact'],['bewältigen','to cope with'],['die Voraussetzung','prerequisite'],['nachhaltig','sustainable'],['fördern','to promote'],['die Herausforderung','challenge'],['beeinflussen','to influence'],['die Maßnahme','measure']],
+e:{goethe:[['Der Minister sagte, die Lage ___ stabil.',['sei','ist','war','wird'],0,'Reported speech uses Konjunktiv I: sei.'],['___ des schlechten Wetters fand das Fest statt.',['Trotz','Wegen','Aufgrund','Durch'],0,'Contrast, so trotz + Genitiv.']],
+telc:[['Die ___ Kinder spielen im Garten.',['lachenden','gelachten','lachende','lachen'],0,'Present participle + weak plural ending -en.'],['Er hat gut gelernt; ___ hat er die Prüfung bestanden.',['folglich','obwohl','weil','damit'],0,'folglich = consequently, followed by verb in position 2.']]},
+w:'Write a formal complaint letter (120–150 words) about a delayed delivery. Use at least two connectors such as obwohl, trotzdem, folglich.'},
+C1:{g:[
+['Funktionsverbgefüge','Fixed noun-verb pairs: in Betracht ziehen, zur Verfügung stellen, Stellung nehmen, in Frage stellen.','Learn them as chunks; the noun carries the meaning, the verb is grammatical.'],
+['Konjunktiv II (past)','hätte/wäre + Partizip II: Hätte ich das gewusst, hätte ich anders entschieden.','Drop wenn and invert: Hätte ich…, = Wenn ich … gehabt hätte.'],
+['Double connectors','je … desto, sowohl … als auch, weder … noch, entweder … oder, nicht nur … sondern auch.','Je mehr er übte, desto besser wurde er: verb last after je, verb second after desto.'],
+['Modal particles','doch, ja, mal, eben, halt, schon colour tone: Komm doch mal vorbei! Das ist ja interessant.','They are untranslatable; learn them from whole sentences.']],
+v:[['erörtern','to discuss in depth'],['die Tragweite','scope, significance'],['hinterfragen','to question'],['zweifelsohne','undoubtedly'],['einschlägig','relevant'],['maßgeblich','decisive'],['die Beeinträchtigung','impairment'],['in Erwägung ziehen','to consider']],
+e:{goethe:[['Wir müssen alle Optionen in ___ ziehen.',['Betracht','Sicht','Erwartung','Folge'],0,'Funktionsverbgefüge: in Betracht ziehen.'],['Hätte ich das gewusst, ___ ich anders entschieden.',['hätte','habe','würde','wäre'],0,'Unreal past: hätte + Partizip II.']],
+telc:[['Je mehr er übte, ___ besser wurde er.',['desto','als','wie','dass'],0,'je … desto comparative pair.'],['Das Gutachten, ___ Ergebnisse umstritten sind, wurde veröffentlicht.',['dessen','deren','dem','das'],0,'Genitive relative pronoun, neuter antecedent: dessen.']]},
+w:'Write a structured essay (200 words): remote work, advantages and disadvantages, then your conclusion.'},
+C2:{g:[
+['Subjective modals','Er soll reich sein = it is said. Sie muss den Zug verpasst haben = she probably missed it.','müssen = near-certain, dürfte = likely, könnte = possible, sollen = hearsay.'],
+['Register & style','Formal: Ich bitte um Verständnis. Neutral: Ich hoffe, das ist okay. Colloquial: Passt schon.','Match vocabulary, sentence length and nominal style to the situation.'],
+['Idioms','jemandem einen Bären aufbinden (to tell tall tales), auf dem Holzweg sein (be mistaken), das Eis brechen.','Learn idioms with a mini-story or an image; never translate word for word.'],
+['Complex sentences','Embedded clauses, apposition and long attributes: Der Vorschlag, den der Ausschuss, ohne zu zögern, annahm, …','Find the main verb first, then peel off each inserted unit.']],
+v:[['die Redewendung','idiom'],['schlüssig','coherent'],['der Zwiespalt','dilemma'],['anmaßend','presumptuous'],['prägnant','concise'],['die Gepflogenheit','custom'],['sich anbiedern','to ingratiate oneself'],['verklausuliert','convoluted']],
+e:{goethe:[['Er soll vor Jahren Millionär gewesen sein. Das bedeutet:',['He is said to have been one','He must have been one','He wanted to be one','He should be one'],0,'sollen in the subjective sense = hearsay.'],['Er steht dem Vorhaben skeptisch ___.',['gegenüber','entgegen','zu','vor'],0,'gegenüberstehen + dative.']],
+telc:[['Jemandem einen Bären aufbinden bedeutet:',['to deceive someone with a tall tale','to give someone a gift','to annoy someone','to invite someone'],0,'Idiom for telling someone a made-up story.'],['Sie muss den Zug verpasst haben. Das bedeutet:',['She probably missed it','She has to miss it','She wanted to miss it','She was forced to miss it'],0,'Subjective müssen + Infinitiv Perfekt = strong inference.']]},
+w:'Write a formal commentary (250 words) on the statement: Language shapes thought. Use idioms and a precise formal register.'}
+};

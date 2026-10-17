@@ -1,0 +1,14 @@
+{
+  "name": "deutsch-trainer",
+  "version": "1.0.0",
+  "description": "Browser-based German learning app, CEFR A1 to C2: grammar, flashcards, Goethe/telc-style practice, writing feedback and progress tracking.",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "serve .",
+    "check": "node --check js/app.js && node --check js/feedback.js && node --check js/exam-info.js && node --check js/data/content.js && node --check js/data/grammar-extra.js"
+  },
+  "devDependencies": {
+    "serve": "14.2.4"
+  }
+}
